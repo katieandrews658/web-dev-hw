@@ -1,0 +1,14 @@
+<h1> README.md </h1>
+
+  <p> A Version Control System is a computer system which keeps track of every modification that a person makes in a special type of database. It allows the writer to track the changes over time by committing changes. This allows the developer to see a list of changes over time. It also allows people to make changes that don't work and it makes working in a group easier. Everyone can see the changes other people made. This is why we are using the Version Control System called GitHub. </p>
+
+  [My Responses](/responses.txt)
+
+  <h2> Work Cycle </h2>
+    <p> This work cycle I mainly just followed the instructions. I made a lot of mistakes and that ended up in me deleting certain files, which has led to a small amount of times that I hit push origin. In the future, I would push more often, so I would have more of a reminder of what I did.</p>
+    <p> Additionally, one problem I had was with the screenshotting. Downloading the app was easy but understanding it, even with the video was difficult. I will ask others for help sooner next time I do this, because as soon as someone looked at my computer, they fixed my simple mistake. </p>
+    <p> I would like to talk about the whole absolute URL's further. For some reason, it is still confusing me a little bit. </p>
+    <p> I didn't post any of my problems to issues to the repo. I had forgotten that that was an option. In the future, I will be using that particular feature. </p>
+
+  [Screenshot From Step 8](/images/screenshot2.png)
+  
