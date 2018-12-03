@@ -1,0 +1,38 @@
+/*Add your styles here*/
+body{
+  font-family: Arial;
+  background-color: #DDDFD4;
+}
+header, footer{
+  background-color:#3FB0AC;
+  padding: 35px;
+  font-family: Arial;
+  color: white;
+}
+content{
+  /*Sets a row for inner pieces: */
+  width: 100%;
+  display: flex;
+}
+main{
+  background-color:#173E43;
+  width:70%;
+  height:130px;
+  float: left;
+}
+aside{
+  background-color:#FAE596;
+  width: 30%;
+  height:130px;
+  float: left;
+}
+footer{
+  text-align: right;
+}
+.outer-block>p{
+  color:purple;
+  background-color:gold;
+}
+.box-1{
+  background-color:rgba(0,0,0,0.5)
+}
