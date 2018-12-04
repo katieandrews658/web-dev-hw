@@ -1,38 +1,16 @@
-/*Add your styles here*/
-body{
-  font-family: Arial;
-  background-color: #DDDFD4;
+/*Add my styles here*/
+p {
+  background-color:rgb(59, 255, 0);
+  color: turquoise;
 }
-header, footer{
-  background-color:#3FB0AC;
+body {
+  font-family: Arial;
+  background-color:rgb(0, 242, 255);
+  opacity: 0.5
+}
+header, footer {
+  background-color:rgb(178, 0, 250);
   padding: 35px;
   font-family: Arial;
-  color: white;
-}
-content{
-  /*Sets a row for inner pieces: */
-  width: 100%;
-  display: flex;
-}
-main{
-  background-color:#173E43;
-  width:70%;
-  height:130px;
-  float: left;
-}
-aside{
-  background-color:#FAE596;
-  width: 30%;
-  height:130px;
-  float: left;
-}
-footer{
-  text-align: right;
-}
-.outer-block>p{
-  color:purple;
-  background-color:gold;
-}
-.box-1{
-  background-color:rgba(0,0,0,0.5)
+  color: rgb(255, 0, 212);
 }
