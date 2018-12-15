@@ -1,0 +1,99 @@
+/*Page-Wide Elements*/
+html {
+  background-image:url(.\images\wizard_1.jpg);
+  background-color:black;
+}
+* {
+  font-color: white;
+}
+body {
+  width:100%;
+  font-family:Arial, monospace;
+  margin:0;
+  font-color: white;
+  background-color: rgb(57, 58, 87);
+}
+a {
+  text-decoration: none;
+}
+
+/*Background*/
+.background-image {
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+#image-container {
+  position: absolute;
+  height: 100%;
+  width:100%;
+}
+
+#overlay {
+  background-image: url(.\images\wizard_1.jpg);
+  position: fixed;
+  top:0;
+  left:0;
+  opacity: .3;
+}
+/*Page Content*/
+#content-container {
+  width:inherit;
+  position: absolute;
+}
+h1 {
+  background-color:rgb(23, 54, 57);
+  font-size:16pt;
+  font-color:white;
+  border-color: gray;
+  opacity:inherit;
+}
+p {
+  color:inherit;
+  margin: 0;
+  font-weight: bold;
+  font-color:white;
+}
+.name-traits {
+  background-color: rgb(23,54,57);
+  font-size: 24pt;
+  font-weight:normal;
+  font-color: white;
+  z-index:500;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+/*Assignment Links*/
+.github-profile-link-container {
+  width:50px;
+  height:50px;
+  float: right;
+  margin: 30px;
+}
+.github-profile-link-container>img {
+  width: 100px;
+  height: 100px;
+  margin:10px;
+  z-index: 10;
+  position:absolute;
+  top:0;
+  right:0;
+}
+.assignment-links a {
+  font-size: 30px;
+  background-color: rgb(23,54,57);
+  font-color:white;
+  font-weight: bold;
+  z-index:1
+  }
+li {
+  display: inline;
+  margin-right: 10px;
+}
+}
+.assignment-links a:hover {
+  border: 5px solid black;
+  position: relative;
+  bottom: 10px;
+}
