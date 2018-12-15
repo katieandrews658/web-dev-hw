@@ -7,14 +7,14 @@ title {
   font-size: 30pt;
   font-weight:800;
   font-style: normal;
-  color:rgb(255,0,0);
+  color:red;
 }
 h1, h2, {
   font-family: 'serif', Verdana;
   font-size:24pt;
   font-weight:500;
   font-style: oblique;
-  color:rgb(255, 0, 0)
+  color:red;
 }
 /*Paragraph Content*/
 .content p:first-of-type:first-letter {
