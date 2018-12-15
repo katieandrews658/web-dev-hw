@@ -1,12 +1,12 @@
 /*Page-Wide Elements*/
-html {
+.html {
   background-image:url(.\images\wizard_1.jpg);
   background-color:black;
 }
 * {
   font-color: white;
 }
-body {
+.body {
   width:100%;
   font-family:Arial, monospace;
   margin:0;
@@ -41,20 +41,23 @@ a {
   width:inherit;
   position: absolute;
 }
-h1 {
+.h1 {
   background-color:rgb(23, 54, 57);
-  font-size:16pt;
+  font-size:40pt;
   font-color:white;
   border-color: gray;
   opacity:inherit;
 }
-p {
-  color:inherit;
+.p {
+  font-size:16pt;
   margin: 0;
   font-weight: bold;
   font-color:white;
+  padding:2em;
 }
 .name-traits {
+  width:400px;
+  height:100px;
   background-color: rgb(23,54,57);
   font-size: 24pt;
   font-weight:normal;
@@ -87,9 +90,10 @@ p {
   font-weight: bold;
   z-index:1
   }
-li {
+.li {
   display: inline;
   margin-right: 10px;
+  color: white;
 }
 }
 .assignment-links a:hover {
