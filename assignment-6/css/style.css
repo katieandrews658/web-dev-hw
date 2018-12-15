@@ -2,31 +2,31 @@
 body {
   background-color: #DDDFD4;
 }
-title {
+#title {
   font-family:serif;
-  font-size: 30pt;
+  font-size: 24pt;
   font-weight:800;
   font-style: normal;
-  color:red;
+  color:rgb(191, 0, 0);
 }
-h1, h2, {
+#h1, #h2, {
   font-family: 'serif', Verdana;
-  font-size:24pt;
+  font-size:16pt;
   font-weight:500;
   font-style: oblique;
-  color:red;
+  color:gold;
 }
 /*Paragraph Content*/
 .content p:first-of-type:first-letter {
   font-family:sans-serif, cursive;
-  font-size: 24pt;
+  font-size: 12pt;
   font-weight:700;
   letter-spacing:normal;
-  color: rgba(175, 173, 0, 0.85);
+  color: rgb(191,0,0);
 }
 p {
   font-family:'sans-serif' Verdana;
-  font-size:16pt;
+  font-size:12pt;
   font-weight:normal;
   font-style: normal;
   word-spacing:normal;
